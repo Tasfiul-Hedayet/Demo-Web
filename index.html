@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Landing Page</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+    
+    .navbar {
+    background-color: #333;
+    overflow: hidden;
+    }
+    
+    .navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    }
+    
+    .dropdown {
+    float: left;
+    overflow: hidden;
+    }
+    
+    .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    }
+    
+    .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+    }
+    
+    .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    }
+    
+    .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    }
+    
+    .dropdown-content a:hover {
+    background-color: #ddd;
+    }
+    
+    .dropdown:hover .dropdown-content {
+    display: block;
+    }
+
+    header {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 50px 0;
+    }
+    
+    
+    
+    main {
+    padding: 30px;
+    }
+    
+    section {
+    margin-bottom: 30px;
+    }
+    
+    .benefits {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    }
+    
+    .benefits ul {
+    list-style: none;
+    padding: 0;
+    }
+    
+    .benefits li {
+    margin-bottom: 15px;
+    font-size: 18px;
+    }
+    
+    .features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    }
+    
+    .feature-card {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+    }
+    
+    .feature-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    }
+    
+    .call-to-action {
+    text-align: center;
+    }
+    
+    .call-to-action h2 {
+    margin-bottom: 20px;
+    }
+    
+    .call-to-action a {
+    background-color: #007bff; /* Primary blue color */
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    }
+    
+    footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    }
+    
+    /* Media queries for responsiveness */
+    @media (max-width: 768px) {
+    .benefits ul {
+    width: 100%;
+    }
+    
+    .features {
+    flex-direction: column;
+    }
+    
+    .feature-card {
+    width: 100%;
+    }
+    }
+    
+  </style>
+</head>
+<body>
+
+<div class="navbar">
+    <a href="#home">Home</a>
+    <a href="#news">News</a>
+    <div class="dropdown">
+      <button class="dropbtn">Services 
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="#service1">Service 1</a>
+        <a href="#service2">Service 2</a>
+        <a href="#service3">Service 3</a>
+      </div>
+    </div> 
+    <a href="#contact">Contact</a>
+  </div>
+
+  <header>
+    <h1>Your Website</h1>
+    <p>Welcome to our awesome website!</p>
+  </header>
+
+  
+ 
+ 
+ 
+ 
+ <main>
+ <section class="benefits">
+ <h2>Benefits of Using Our CRM Software</h2>
+ <ul>
+ <li>Bring all your business data together in one place.</li>
+ <li>Track every detail of your projects.</li>
+ <li>Coordinate with everyone involved in your business.</li>
+ <li>Share documents and files easily.</li>
+ <li>Calculate costs and track your budget.</li>
+ <li>Pursue leads and convert them into customers.</li>
+ </ul>
+ </section>
+ <section class="features">
+ <h2>Key Features</h2>
+ <div class="feature-card">
+ <h3>Contact Management</h3>
+ <p>Store and manage contact information for leads, customers, and partners.</p>
+ </div>
+ <div class="feature-card">
+ <h3>Opportunity Management</h3>
+ <p>Track your sales pipeline and close more deals.</p>
+ </div>
+ <div class="feature-card">
+ <h3>Project Management</h3>
+ <p>Plan, track, and collaborate on projects.</p>
+ </div>
+ <div class="feature-card">
+ <h3>Reporting and Analytics</h3>
+ <p>Gain insights into your business data.</p>
+ </div>
+ </section>
+ </main>
+ 
+ <footer>
+ <p>&copy; Your Company Name 2024</p>
+ </footer>
+ 
+ 
+</body>
+</html>
