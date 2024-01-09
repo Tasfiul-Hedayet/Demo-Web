@@ -185,6 +185,52 @@
     border-radius: 5px;
     text-decoration: none;
     }
+
+    .feedback {
+  padding: 30px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+.feedback h2 {
+  margin-bottom: 20px;
+}
+
+form {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+    
     
     footer {
     background-color: #333;
@@ -192,6 +238,8 @@
     padding: 20px;
     text-align: center;
     }
+
+    
     
     /* Media queries for responsiveness */
     @media (max-width: 768px) {
